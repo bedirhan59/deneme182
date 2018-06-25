@@ -4,4 +4,17 @@
   "website": "http://selfbot-py.tk",
   "repository": "https://github.com/verixx/selfbot.py",
   "env": {
-    "TOKEN": {NDYwNzk3NzA0ODM5MjMzNTQ2.DhKTGQ.8v9ofgej83h_Z_cNiKeMxDC1Y-U
+    "TOKEN": {
+        "description": "Discord token used to log in",
+        "required": true
+    },
+    "PREFIX": {
+      "description": "Command prefix to use.",
+      "required": true
+    },
+    "GITHUBTOKEN": {
+      "description": "Token for github api usage.",
+      "required": true
+    }
+  }
+}
